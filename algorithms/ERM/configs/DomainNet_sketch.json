@@ -1,0 +1,22 @@
+{
+    "exp_name": "DomainNet_sketch",
+    "algorithm": "ERM",
+    "model": "resnet50",
+    "feature_dim": 2048,
+    "dataset": "DomainNet",
+    "seed_value": 1,
+    "val_size": 0.2,
+    "src_data_path": "data/DomainNet/Raw images/",
+    "src_train_meta_filenames":["data/DomainNet/Train val splits/clipart.txt",
+        "data/DomainNet/Train val splits/infograph.txt",
+        "data/DomainNet/Train val splits/painting.txt",
+        "data/DomainNet/Train val splits/quickdraw.txt",
+        "data/DomainNet/Train val splits/real.txt"],
+    "target_test_meta_filenames": ["data/DomainNet/Train val splits/sketch.txt"],
+    "n_classes": 345,
+    "n_domain_classes": 5,
+    "iterations": 5000,
+    "learning_rate": 0.00005,
+    "batch_size": 32,
+    "step_eval": 300
+}

@@ -1,0 +1,22 @@
+{
+    "exp_name": "Rotated_15_MNIST",
+    "algorithm": "ERM",
+    "model": "mnistnet",
+    "feature_dim": 128,
+    "dataset": "MNIST",
+    "seed_value": 1,
+    "val_size": 0.2,
+    "src_data_path": "data/rotated_MNIST/Raw images/",
+    "src_train_meta_filenames":["data/rotated_MNIST/Train val splits/0_degree.txt",
+        "data/rotated_MNIST/Train val splits/75_degree.txt",
+        "data/rotated_MNIST/Train val splits/30_degree.txt",
+        "data/rotated_MNIST/Train val splits/45_degree.txt",
+        "data/rotated_MNIST/Train val splits/60_degree.txt"],
+    "target_test_meta_filenames":["data/rotated_MNIST/Train val splits/15_degree.txt"],
+    "n_classes": 10,
+    "n_domain_classes": 5,
+    "iterations": 5000,
+    "learning_rate": 0.00005,
+    "batch_size": 64,
+    "step_eval": 300
+}

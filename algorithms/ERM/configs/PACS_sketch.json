@@ -1,0 +1,20 @@
+{
+    "exp_name": "PACS_sketch",
+    "algorithm": "ERM",
+    "model": "resnet50",
+    "feature_dim": 2048,
+    "dataset": "PACS",
+    "seed_value": 1,
+    "val_size": 0.2,
+    "src_data_path": "data/PACS/Raw images/",
+    "src_train_meta_filenames":["data/PACS/Train val splits/art_painting.txt",
+        "data/PACS/Train val splits/cartoon.txt",
+        "data/PACS/Train val splits/photo.txt"],
+    "target_test_meta_filenames": ["data/PACS/Train val splits/sketch.txt"],
+    "n_classes": 7,
+    "n_domain_classes": 3,
+    "iterations": 5000,
+    "learning_rate": 0.00005,
+    "batch_size": 32,
+    "step_eval": 300
+}

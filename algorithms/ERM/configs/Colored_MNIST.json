@@ -1,0 +1,20 @@
+{
+    "exp_name": "Colored_MNIST",
+    "algorithm": "ERM",
+    "model": "cmnistnet",
+    "feature_dim": 128,
+    "dataset": "MNIST",
+    "seed_value": 1,
+    "val_size": 0.2,
+    "src_data_path": "data/colored_MNIST/Raw images/",
+    "src_train_meta_filenames":["data/colored_MNIST/Train val splits/blue.txt",
+        "data/colored_MNIST/Train val splits/green.txt",
+        "data/colored_MNIST/Train val splits/red.txt"],
+    "target_test_meta_filenames": ["data/colored_MNIST/Train val splits/target_orange.txt"],
+    "n_classes": 10,
+    "n_domain_classes": 3,
+    "iterations": 5000,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "step_eval": 300
+}

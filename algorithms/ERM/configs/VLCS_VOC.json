@@ -1,0 +1,20 @@
+{
+    "exp_name": "VLCS_VOC",
+    "algorithm": "ERM",
+    "model": "resnet50",
+    "feature_dim": 2048,
+    "dataset": "VLCS",
+    "seed_value": 1,
+    "val_size": 0.2,
+    "src_data_path": "data/VLCS/Raw images/",
+    "src_train_meta_filenames":["data/VLCS/Train val splits/LabelMe.txt",
+        "data/VLCS/Train val splits/SUN09.txt",
+        "data/VLCS/Train val splits/Caltech101.txt"],
+    "target_test_meta_filenames": ["data/VLCS/Train val splits/VOC2007.txt"],
+    "n_classes": 5,
+    "n_domain_classes": 3,
+    "iterations": 5000,
+    "learning_rate": 0.00005,
+    "batch_size": 32,
+    "step_eval": 300
+}

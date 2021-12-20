@@ -25,7 +25,9 @@ Details of the model and experimental results can be found in our following Neur
       title={Exploiting Domain-Specific Features to Enhance Domain Generalization}, 
       author={Manh-Ha Bui and Toan Tran and Anh Tuan Tran and Dinh Phung},
       year={2021},
-      booktitle={Proceedings of the Thirty-Fifth Annual Conference on Neural Information Processing Systems}
+      eprint={2110.09410},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
 }
 ```
 **Please CITE** our paper if you find it useful in your research.

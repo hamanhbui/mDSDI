@@ -28,7 +28,7 @@ Details of the model and experimental results can be found in our following Neur
       booktitle={Proceedings of the Thirty-Fifth Annual Conference on Neural Information Processing Systems}
 }
 ```
-**Please CITE** our paper whenever this repository is used to help produce published results or incorporated into other software.
+**Please CITE** our paper if you find it useful in your research.
 
 ## <a name="guideline"></a> Guideline
 ### <a name="prepare"></a> To prepare:

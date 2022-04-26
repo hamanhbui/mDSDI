@@ -21,13 +21,16 @@ Its results show competitive performance with state-of-the-art techniques in DG 
 
 Details of the model and experimental results can be found in our following NeurIPS 2021 [paper](https://arxiv.org/abs/2110.09410):
 ```bibtex
-@Inproceedings{bui2021exploiting,
-      title={Exploiting Domain-Specific Features to Enhance Domain Generalization}, 
-      author={Manh-Ha Bui and Toan Tran and Anh Tuan Tran and Dinh Phung},
-      year={2021},
-      eprint={2110.09410},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{NEURIPS2021_b0f2ad44,
+ author = {Bui, Manh-Ha and Tran, Toan and Tran, Anh and Phung, Dinh},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+ pages = {21189--21201},
+ publisher = {Curran Associates, Inc.},
+ title = {Exploiting Domain-Specific Features to Enhance Domain Generalization},
+ url = {https://proceedings.neurips.cc/paper/2021/file/b0f2ad44d26e1a6f244201fe0fd864d1-Paper.pdf},
+ volume = {34},
+ year = {2021}
 }
 ```
 **Please CITE** our paper if you find it useful in your research.
